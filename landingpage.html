@@ -5,6 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="bg-green-200 md:bg-red-200 lg:bg-blue-200">
@@ -15,21 +18,114 @@
     <main>
         <article>
             <section>
-                <div class=" max-w-[80%] min-h-[60vh] mx-auto grid grid-cols-2">
+                <div class=" max-w-[80%] min-h-[60vh] mx-auto grid grid-cols-1 md:grid-cols-2">
 
-                    <div class="my-auto space-y-4">
+                    <div class="my-auto space-y-4 order-last md:order-first text-center md:text-left">
 
-                        <h1 class="text-4xl font-bold">Hero Section Title</h1>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad numquam explicabo quod eveniet qui repellat sequi sapiente consequuntur nesciunt fugiat error incidunt laudantium architecto vel, iste, voluptatibus perspiciatis exercitationem quas! </p>
-                        <button class="bg-violet-500 hover:bg-violet-700 text-white px-4 py-2 rounded"> Get Started</button>
+                        <h1 class="text-3xl md:text-5xl font-bold">Hero Section Title</h1>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad numquam explicabo quod eveniet
+                            qui repellat sequi sapiente consequuntur nesciunt fugiat error incidunt laudantium
+                            architecto vel, iste, voluptatibus perspiciatis exercitationem quas! </p>
+                        <button class="bg-violet-500 hover:bg-violet-700 text-white px-4 py-2 rounded"> Get
+                            Started</button>
                     </div>
                     <div class=" my-auto mx-auto">
-                        <img class="w-full" src="https://png.pngtree.com/png-clipart/20220930/original/pngtree-mobile-shopping-concept-a-man-and-woman-buy-things-in-the-png-image_8644437.png">
+                        <img class="w-full"
+                            src="https://png.pngtree.com/png-clipart/20220930/original/pngtree-mobile-shopping-concept-a-man-and-woman-buy-things-in-the-png-image_8644437.png">
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article>
+            <section class="py-10">
+                <h2 class="text-4xl text-center font-bold">features section</h2>
+                <div class="px-6 md:px-0 md:max-w-[80%] mx-auto border border-red-500 grid grid-cols-3 gap-6">
+                    <div class="px-6 py-10 rounded-lg shadow-lg bg-white text-center">
+                        <i class="fa-solid fa-rocket"></i>
+                        <h3 class="text-3xl font-bold">feature 1 title</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero totam quibusdam rerum,
+                            obcaecati a quaerat dolorem consequatur amet animi. Corporis eum atque cupiditate alias
+                            accusantium earum veritatis minus porro architecto.</p>
+                    </div>
+                    <div class="px-6 py-10 rounded-lg shadow-lg bg-white text-center">
+                        <i class="fa-solid fa-rocket"></i>
+                        <h3 class="text-3xl font-bold">feature 2 title</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero totam quibusdam rerum,
+                            obcaecati a quaerat dolorem consequatur amet animi. Corporis eum atque cupiditate alias
+                            accusantium earum veritatis minus porro architecto.</p>
+                    </div>
+
+                    <div class="px-6 py-10 rounded-lg shadow-lg bg-white text-center">
+                        <i class="fa-solid fa-rocket"></i>
+                        <h3 class="text-3xl font-bold">feature 3 title</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero totam quibusdam
+                            rerum, obcaecati a quaerat dolorem consequatur amet animi. Corporis eum atque
+                            cupiditate alias accusantium earum veritatis minus porro architecto.</p>
+                    </div>
+            </section>
+            <section class="bg-white py-10">
+                <div class="px-6 md:px-0 md:w-[80%] mx-auto grid grid-cols-12 ">
+                </div>
+            </section>
+            <section>
+                <div class="px-6 md:px-0 md:w[80%] mx-auto grid grid-cols-12 gap-8">
+                    <div class="md:col-span-4 col-span-12">
+                        <img src="eve1.svg">
+                    </div>
+
+                    <div class="col-span-8 p-10 space-y-4 my-auto">
+                        <h3 class="text-3xl font-bold">Service Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut animi quis similique debitis ducimus. Aspernatur tempora, totam maiores esse voluptas facilis molestias magnam asperiores sed eius, modi quae amet ex.</p>
+                        <button class="py-3 px-3 rounded bg-violet-500 text-white">Learn more</button>
                     </div>
                 </div>
             </section>
         </article>
     </main>
-</body>
-
+    <footer>
+        <div class="bg-gray-800 text-white py-4">
+            <div class="px-6 md:px-0 md:w-[80%] mx-auto flex justify-between">
+                <p>Connect with us on social network</p>
+                <div class="flex-gap-3">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="bg-violet-500 text-white py-4">
+            <div class="px-6 md:px-0 md:w-[80%] mx-auto grid grid-cols-12 gap-8">
+                <div class="col-span-5">
+                    <h3 class="font-bold text-xl">Compny Title</h3>
+                    <p>&copy; 2025 All Rights Reserved</p>
+                    <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum deleniti dolor doloribus facilis accusamus veritatis odit, repellat corrupti ut architecto aliquam recusandae ducimus consequatur beatae quae exercitationem sunt qui impedit!</p>
+                </div>
+                <div class="col-span-2">
+                    <h3 class="font-bold text-lg">Important Links</h3>
+                    <ul class="mt-5">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our services</a></li>
+                        <li><a href="#">Our products</a></li>
+                    </ul>
+                </div>
+                <div class="col-span-3">
+                    <h3 class="font-bold text-lg">Contact Us</h3>
+                    <ul class="space-y-2 mt-5">
+                        <li class="fa-solid fa-house">
+                            <spa>LGF raja ram kumar plaza</spa>
+                        </li>
+                        <li><i class="fa-solid fa-envelope"></i>info@gmail.com</li>
+                        <li><i class="fa-solid fa-phone"></i>8090692331</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+  </body>
 </html>
+
+            
